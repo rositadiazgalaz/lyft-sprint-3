@@ -10,7 +10,17 @@ Colors:
 	margin: 0;
 	padding: 0;
 }
+
 body{
 	font-size: 16px;
 	font-family: 'Raleway', sans-serif;
+}
+.nav-bar{
+	background-color: #E54E79;
+	overflow: hidden;
+}
+.lista{
+	display: inline-block;
+	text-align: right;
+
 }
