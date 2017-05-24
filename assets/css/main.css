@@ -9,18 +9,151 @@ Colors:
 *{
 	margin: 0;
 	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
 }
 
 body{
 	font-size: 16px;
 	font-family: 'Raleway', sans-serif;
 }
+
 .nav-bar{
 	background-color: #E54E79;
 	overflow: hidden;
+	/*float: left;*/
+	display: block;
+	margin: 0 auto;
 }
 .lista{
 	display: inline-block;
-	text-align: right;
+	
 
+}
+nav div.contenedor-lista ul li{
+	display: table;
+	height: initial;
+	text-align: right;
+	float: left;
+}
+#formulario{
+	overflow: hidden;
+height: 100vh;
+background-image: url(../img/cropped-Lyft-Promo-Codes-car-1.jpg);
+background-size: cover;
+position: relative;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center;
+
+}
+#formualrio .caja {
+position: absolute;
+max-width: 500px;
+top: 35vh;
+right: 0;
+background-color: #EDE9E2;
+padding: 4em 3.5em 4em 3em;
+text-align: left;
+width: 100%;
+background: #75726C;
+}
+#formulario .caja h3 {
+color: #00B2A9;
+}
+#formulario .caja p {
+font-size: 90%;
+color: #75726C;
+margin: 1.5em 0;
+}
+#formulario .caja p {
+display: block;
+font-size: 90%;
+margin-top: 1.5em;
+font-weight: 400;
+}
+#formulario input {
+margin: 0;
+font-size: 100%;
+}
+#jugar {
+background-color: #00B2A9;
+width: 100%;
+text-align: center;
+padding: 5em 0 2em;
+}
+#jugar h2 {
+width: 100%;
+background-color: #EDE9E2;
+padding: .5em 0;
+color: #75726C;
+}
+#jugar {
+margin: 5em 0 1em;
+background: #EDE9E2;
+padding: 4.5em 3em;
+}
+#jugar .autos-cont {
+width: 48%;
+position: relative;
+}
+#jugar .autos-cont input.autoX {
+display: inline;
+font-size: 2rem;
+color: #75726C;
+}
+#jugar #start {
+font-size: 120%;
+background-color: #00B2A9;
+width: 100%;
+}
+#jugar #start:hover {
+background-color: #008883;
+}
+footer > * {
+overflow: hidden;
+background: #75726C;
+}
+footer h3 {
+font-weight: 400;
+text-transform: none;
+font-size: 1.5rem;
+}
+footer .top {
+padding: 2em 0;
+}
+footer .bottom {
+background-color: #706D68;
+padding: 1em 0;
+}
+footer .left {
+float: left;
+clear: left;
+display: block;
+width: 49%;
+}
+footer .right {
+float: right;
+clear: right;
+width: 49%;
+display: block;
+}
+footer .top .right > * {
+margin: 0 0 0 25%;
+}
+footer .bottom .right {
+text-align: right;
+}
+footer ul li {
+margin: .5em 0;
+}
+footer span {
+text-decoration: none;
+color: #fff;
+}
+footer li {
+    width: 25px;
 }

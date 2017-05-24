@@ -36,26 +36,27 @@
 <header>
 
 	<div class="contenedor-img" id="contenedor-img">
-		<img src="assets/img/cropped-Lyft-Promo-Codes-car-1.jpg" alt="">
+		<!-- <img src="assets/img/cropped-Lyft-Promo-Codes-car-1.jpg" alt=""> -->
 	</div>
 
 	<aside class="formulario" id="formulario">
-		<form class="form-aside" action="index.html" method="post">
-			<h1>TURN MILES INTO MONEY</h1>
+		<div class="caja" id="caja-aside">
+			<h3>TURN MILES INTO MONEY</h3>
 			<p>SIGN UP TO DRIVE LYFT</p>
-			<!--<label>Numero telefono</label>-->
-			<input class="data" type="text" placeholder="Phone Number" value="required">
-			<!-- <label for="">nombre</label> -->
-			<input class="data hidden" type="text" placeholder="Name" value required>
-			<!-- <label for="">email</label> -->
-			<input class="data hidden" type="text" placeholder="Email" value required>
-			
-			<a class="link-form-button" href="#">BECOME A DRIVER 
-			<span>
-				<!-- ICONO CORAZON -->
-			</span> 
-			</a>
-
+			<div class="conductor-number">
+				<!--<label>Numero telefono</label>-->
+				<input class="fono-number" type="number" placeholder="Phone Number" >
+				<!-- <label for="">nombre</label> -->
+				<input class="data hidden" type="text" placeholder="Name">
+				<!-- <label for="">email</label> -->
+				<input class="data hidden" type="text" placeholder="Email">
+			</div>
+			<div>
+				<button class="form-button" id="boton" href="#">BECOME A DRIVER </button>
+				<span class="corazon">
+					<!-- ICONO CORAZON -->
+				</span> 
+			</div>
 			<p>
 				Already applied? Check the status of your application here.
 			</p>
@@ -64,16 +65,19 @@
 				Earn money for inviting friends to drive. Learn more.
 			</p>
 
-		</form>
+		</div>
 		
 	</aside>
 </header>
 
-<section class="fondo-celeste" id="fondo-celeste">
-	<div class="play-fondo-blanco">PLAY WIDTH LYFT
+<section class="jugar" id="jugar">
+
+	<div class="juagr-fondo"> 
+		<h2>PLAY WIDTH LYFT</h2>
 	</div>
-	<div class="autos">
-		<span>
+
+	<div class="autos-cont" id="juego">
+		<span> 
 			<input class="autoX" type="text" placeholder="X coordenada">
 		</span>
 		<span>
@@ -88,29 +92,31 @@
 </section>
 
 <footer class="final" id="final">
-	<span>
-		<h3>Sprint3-Proyect</h3>
-		<p>
-			You can custom the footer and its content 
-		</p>
-	</span>
-	<span>
-		<ul> <h3>Links</h3>
+	<div class="contenedor-foo">
+		<div class="left-izq">
+			<h3>Sprint3-Proyect</h3>
+			<p>
+				You can custom the footer and its content 
+			</p>
+		</div>
+		<div class="right-der">
+			<ul> <h3>Links</h3>
 
-			<li>Link1</li>
-			<li>Link2</li>
-			<li>Link3</li>
-			<li>Link4</li>
+				<li>Link1</li>
+				<li>Link2</li>
+				<li>Link3</li>
+				<li>Link4</li>
 
-		</ul>
-	</span>
-	<div>
-		<span>
-			<p>2017 Lyft Laboratoria
-		</span>
-		<span>
-			Rosa Díaz Galaz
-		</span>
+			</ul>
+		</div>
+		<div>
+			<span>
+				<p>2017 Lyft Laboratoria
+			</span>
+			<span>
+				Rosa Díaz Galaz
+			</span>
+		</div>
 	</div>
 	
 </footer>
